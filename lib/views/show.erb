@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Page du potin</title>
+    </head>
+    <body>
+        <h1>Someone spilled the tea !</h1> 
+        <h3> Here is rumor n.<%= (params['id'].to_i+1) %><br/>
+            What allegedly happened : <%= gossips.content %><br/>
+            Who spilled the tea : <%= gossips.author %>
+        </h3>
+        <p>
+            To go back and check all the little secrets, <a href="/">click here !</a><br/>
+        </p>
+        <p>You know more ? <a href=/gossips/id/edit/>Click here</a> if you want to update this gossip !
+        </p>
+    </body>
+
+
+
+
+</html>
+
