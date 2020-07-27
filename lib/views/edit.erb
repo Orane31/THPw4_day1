@@ -5,9 +5,9 @@
     <body>
         <h1>Update the gossip !</h1>
         <p>You can tell us what you know by filling up the form below :</p>
-        <form action='/gossips/new/' method='POST'>
-            But first, who are you ? ('Anonymous' is accepted) : <input type='text' name='gossip_author'/><br/>
-            Spill the tea : <input type='text' name='gossip_content'/><br/>
+        <form action='/gossips/<%= params['id'] %>/edit/' method='POST'>
+            But first, who are you ? ('Anonymous' is accepted) : <input type='text' name='new_gossip_author'/><br/>
+            Spill the tea : <input type='text' name='new_gossip_content'/><br/>
             <input type='submit'/>
         </form>
     </body>

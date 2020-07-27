@@ -1,0 +1,12 @@
+Projet validant semaine 4 jour 1 de la formation The Hacking Project :
+
+Titre : The Gossip Project
+Construit avec Sinatra 
+
+1. Entrer la commande bundle install
+2. Entrer la commande $ shotgun -p 4567
+3. Ouvrir le navigateur et aller a localhost:4567
+
+Le site internet presente une liste de "gossips"
+Les fonctionnalites sont : Ajouter un gossip, le modifier, afficher le gossip de son choix.
+
